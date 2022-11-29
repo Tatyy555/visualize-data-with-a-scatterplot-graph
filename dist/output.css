@@ -514,8 +514,10 @@ video {
 }
 
 .myTooltip {
-  position: absolute;
-  left: 450px;
+  position: relative;
+  left: 230px;
+  top: 50px;
+  z-index: 10;
   width: 300px;
 }
 
@@ -523,12 +525,20 @@ video {
   visibility: visible;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
+.absolute {
+  position: absolute;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-\[28rem\] {
+  margin-bottom: 28rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.mt-\[28rem\] {
+  margin-top: 28rem;
 }
 
 .flex {
@@ -547,12 +557,20 @@ video {
   height: 500;
 }
 
+.h-\[370px\] {
+  height: 370px;
+}
+
 .w-screen {
   width: 100vw;
 }
 
 .w-\[800\] {
   width: 800;
+}
+
+.w-\[750px\] {
+  width: 750px;
 }
 
 .transform {

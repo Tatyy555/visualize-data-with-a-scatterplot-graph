@@ -4,6 +4,6 @@
 
 @layer components{
   .myTooltip{
-    @apply absolute left-[450px] w-[300px]
+    @apply relative left-[230px] w-[300px] top-[50px] z-10
   }
 }

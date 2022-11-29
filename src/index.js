@@ -150,7 +150,6 @@ const fetchDataAndDraw = async () => {
     .attr("id", "tooltip")
     .style("visibility", "hidden")
     .attr("class", "myTooltip")
-    .style("top", "310px");
 
   let = tooltip2 = d3
     .select("div")
@@ -158,7 +157,6 @@ const fetchDataAndDraw = async () => {
     .attr("id", "tooltip")
     .style("visibility", "hidden")
     .attr("class", "myTooltip")
-    .style("top", "340px");
 
     let = tooltip3 = d3
     .select("div")
@@ -166,7 +164,6 @@ const fetchDataAndDraw = async () => {
     .attr("id", "tooltip")
     .style("visibility", "hidden")
     .attr("class", "myTooltip")
-    .style("top", "370px");
 
     let = tooltip4 = d3
     .select("div")
@@ -174,7 +171,6 @@ const fetchDataAndDraw = async () => {
     .attr("id", "tooltip")
     .style("visibility", "hidden")
     .attr("class", "myTooltip")
-    .style("top", "280px");
 };
 
 fetchDataAndDraw();
