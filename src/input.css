@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .myTooltip{
+    @apply absolute left-[450px] w-[300px]
+  }
+}
